@@ -1,0 +1,20 @@
+{
+  "title": "門店列表",
+  "addStore": "新增門店",
+  "orderNumber": "序號",
+  "storeName": "門店名稱",
+  "storeAddress": "門店地址",
+  "contact": "聯繫人",
+  "contactNumber": "聯繫電話",
+  "storeAccessories": "門店附件",
+  "membershipLevel": "會員等級",
+  "expireDate": "到期時間",
+  "additionalPackage": "附加套餐",
+  "status": "狀態",
+  "operating": "操作",
+  "browseDocuments": "瀏覽文件",
+  "noMore": "暫無",
+  "enable": "啟用",
+  "view": "查看",
+  "delete": "刪除"
+}

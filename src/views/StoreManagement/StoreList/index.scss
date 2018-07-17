@@ -1,0 +1,24 @@
+.pageStoreManagement{
+  padding: 30px 40px;
+  .title{
+    color: #333333;
+    font-size:18px;
+    line-height: 18px;
+  }
+  .addBtn{
+    margin-top: 15px;
+    margin-bottom: 20px;
+    font-size:14px;
+    line-height:30px;
+    color: #fff;
+    span{
+      display: inline-block;
+      width:112px;
+      height:30px;
+      text-align: center;
+      background:rgba(0,190,48,1);
+      border-radius:4px;
+      cursor: pointer;
+    }
+  }
+}

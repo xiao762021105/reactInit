@@ -1,0 +1,33 @@
+.nav-menu{
+  box-shadow: 0 0 4px rgba(0,0,0,.14), 0 4px 8px rgba(0,0,0,.28);
+}
+.nav-menu ul{
+  height: 64px;
+}
+.nav-menu .ant-menu{
+  height: 64px;
+}
+.nav-menu .ant-menu-item{
+  height: 100%;
+  line-height: 64px;
+  font-size: 18px;
+}
+.nav-menu .ant-menu-item:nth-child(1){
+  padding-left: 66px;
+  padding-right: 66px;
+}
+.nav-menu .ant-menu-item{
+  padding-left: 42px;
+  padding-right: 42px;
+  font-size: 16px;
+}
+.nav-menu .ant-menu-submenu{
+  padding-left: 42px;
+  padding-right: 42px;
+  height: 100%;
+  line-height: 64px;
+}
+.nav-menu .ant-menu-submenu-title{
+  height: 100%;
+  line-height: 66px;
+}

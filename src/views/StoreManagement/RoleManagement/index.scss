@@ -1,0 +1,37 @@
+@import "../../../common/style/mixin.scss";
+.pageRoleManagement{
+  padding: 30px 40px;
+  .title{
+    color: #333333;
+    font-size:18px;
+    line-height: 18px;
+  }
+  .queryAea{
+    margin-top: 15px;
+    margin-bottom: 20px;
+    font-size:14px;
+    line-height:30px;
+    color: #fff;
+    @include clearfix;
+    .leftArea{
+      float: left;
+    }
+    .addBtn{
+      display: inline-block;
+      width:112px;
+      height:30px;
+      text-align: center;
+      background:rgba(0,190,48,1);
+      border-radius:4px;
+      cursor: pointer;
+    }
+    .label{
+      margin-left: 50px;
+      margin-right: 8px;
+      color: #333333;
+    }
+    .rightArea{
+      float: right;
+    }
+  }
+}

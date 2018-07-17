@@ -1,0 +1,18 @@
+{
+  "startDatePicker": "開始時間",
+  "endDatePicker": "結束時間",
+  "dataSummary": "數據匯總:",
+  "paymentChannel": "支付通道:",
+  "query": "查詢",
+  "all": "全部",
+  "transactionReport": "交易報表",
+  "retailReport": "零售報表",
+  "cateringReport": "餐飲報表",
+  "tableText": "默認搜索日期是昨日的時間，下部折線圖顯示前七天的交易信息，修改日期搜索後顯示對應的折線圖信息",
+  "defaultNumber": "配置參數",
+  "defaultTitle": "配置標題",
+  "priceTitle": "交易金額",
+  "tradeNumberTitle": "交易筆數",
+  "recent7Days": "最近7天",
+  "recent30Days": "最近30天"
+}

@@ -1,0 +1,50 @@
+.header{
+  height: 42px;
+  background-color: #4B79F7;
+  .logo{
+    padding-left: 33px;
+    padding-top: 8px;
+    float: left;
+    img{
+      width: 159px;
+      height: 26px;
+    }
+  }
+  .userinfo{
+    float: right;
+    height: 100%;
+    line-height: 42px;
+    font-size: 14px;
+    color: #FFFFFF;
+    vertical-align: middle;
+    .avatar{
+      height: 26px;
+      width: 26px;
+      margin-right: 14px;
+      img{
+        height: 26px;
+        width: 26px;
+      }
+    }
+    .welecome{
+      margin-right: 30px;
+    }
+    .merBtn{
+      margin-top: 11px;
+      margin-right: 30px;
+      padding: 0px 12px;
+      display: inline-block;
+      background: #fff;
+      border-radius: 13px;
+      line-height: 22px;
+      font-size: 12px;
+      color: #477CF3;
+    }
+    .password{
+      margin-right: 32px;
+    }
+    .fl{
+      float: left;
+    }
+  }
+}

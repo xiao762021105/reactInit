@@ -1,0 +1,17 @@
+html,body{
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  font-family: 'MicrosoftYaHei';
+}
+#react-root{
+  height: 100%;
+}
+.App{
+  height: 100%;
+}
+.m-main{
+  height: calc(100%-141px);
+  overflow-x: hidden;
+  overflow-y: scroll;
+}

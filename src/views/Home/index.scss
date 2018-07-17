@@ -1,0 +1,88 @@
+@import '../../common/style/mixin.scss';
+.pageHome{
+  /***--首頁部分--***/
+  padding: 30px 40px;
+  .operatArea{
+    @include clearfix;
+  }
+  .queryForm{
+    float: left;
+  }
+  .label{
+    margin-right: 10px;
+  }
+  .btnBlock{
+    float: right;
+  }
+  /***--summary組件部分--***/
+  .summary{
+    margin-top: 55px;
+    @include clearfix;
+    .card{
+      height: 116px;
+      width: calc(calc(100% - 78px)/4);
+      float: left;
+      border-radius:4px;
+      box-sizing: border-box;
+      background-color: #FBFBFB;
+      text-align: center;
+      border: 1px solid #F3F3F3;
+      &:not(:first-child){
+        margin-left: 26px;
+      }
+      .number{
+        margin-top: 25px;
+        margin-bottom: 0;
+        font-size: 36px;
+        font-weight: 600;
+        line-height: 36px;
+      }
+      .title{
+        margin-top: 19px;
+        font-size: 16px;
+        line-height: 16px;
+
+      }
+      &.select{
+        background-color: #4B79F7;
+        color: #fff;
+        border: none;
+        &:hover{
+          background-color: #4B79F7;
+          border: none;
+        }  
+      }
+      &:hover{
+        background-color: #F4F8FF;
+        border: 1px solid #4B79F7;
+        box-shadow: 0 2px 8px rgba(0,0,0,.09);
+      }    
+    }
+  }
+  /***--echartTable组件--***/
+  .echartTable{
+    position: relative;
+  }
+  .btnArea{
+    position: absolute;
+    width: 110px;
+    right: 20px;
+    top: -214px;
+    span{
+      width: 110px;
+      height: 28px;
+      margin-top: 18px;
+      text-align: center;
+      display: inline-block;
+      font-size: 14px;
+      line-height: 28px;
+      border-radius:18px;
+      color: #222222;
+      background:rgba(238,242,245,1);
+    }
+    .select{
+      background:rgba(0,190,48,1);
+      color: #fff;
+    }
+  }
+}

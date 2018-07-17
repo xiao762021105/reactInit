@@ -1,0 +1,39 @@
+[
+  {
+    "textName": "首頁",
+    "key": "home",
+    "path": "/"
+  },
+  {
+    "textName": "门店管理",
+    "key": "storeManagement",
+    "path": "/storemanagement",
+    "children": [
+      {
+        "textName": "门店列表",
+        "key": "storeList",
+        "path": "/storemanagement"
+      },
+      {
+        "textName": "角色管理",
+        "key": "rolemannage",
+        "path": "/storemanagement/role"
+      }
+    ]
+  },
+  {
+    "textName": "终端信息",
+    "key": "terminalInformation",
+    "path": "/storemanagement"
+  },
+  {
+    "textName": "交易信息",
+    "key": "tradingInformationt",
+    "path": "/storemanagement"
+  },
+  {
+    "textName": "商户资料",
+    "key": "businessInformation",
+    "path": "/storemanagement"
+  }
+]

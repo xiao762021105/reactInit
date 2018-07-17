@@ -1,0 +1,17 @@
+{
+  "title": "角色管理",
+  "add": "新增角色",
+  "orderNo": "序號",
+  "roleType": "人員類型",
+  "userName": "用戶名",
+  "roleName": "員工姓名",
+  "role": "員工角色",
+  "visibleBusiness": "可見業務",
+  "ownStore": "所屬門店",
+  "contact": "聯繫方式",
+  "operation": "操作",
+  "all": "全部",
+  "typeLabel": "按狀態",
+  "searchText": "請輸入角色名稱",
+  "serach": "搜索"
+}
